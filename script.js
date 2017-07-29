@@ -14,9 +14,12 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 var map;
+var infoWindow;
 
 function initMap()
 {
+	console.log("InitMap Runs");
+	//sets map options
 	map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: -34.397, lng: 150.644},
     zoom: 8,
@@ -24,6 +27,7 @@ function initMap()
 		streetViewControl: false
   });
 
+//fetches markers.json and then runs plot on info
   fetch('markers.json')
     .then(function(response){return response.json()})
     .then(plotMarkers);
@@ -31,26 +35,44 @@ function initMap()
 
 var markers;
 var bounds;
+var tooltip;
 
 function plotMarkers(m)
 {
-  markers = [];
-  bounds = new google.maps.LatLngBounds();
+  markers = []; //creates markers array
+  bounds = new google.maps.LatLngBounds(); //keeps track of map bounds
+	var infoWindow = new google.maps.InfoWindow({
+		content: "placeholder"
+	});
+
 
   m.forEach(function (marker) {
-    var position = new google.maps.LatLng(marker.lat, marker.lng);
-		var image = 'marker-01.png';
+		//creates marker properties
 
-    markers.push(
-      new google.maps.Marker({
-        position: position,
-        map: map,
-				icon: image,
-      })
+		var current =  new google.maps.Marker({
+			map: map,
+			position: new google.maps.LatLng(marker.lat, marker.lng),
+			icon: 'marker-01.png',
+			title: marker.title,
+			contentString: marker.content,
+		});
+
+		//pushes marker to array
+		markers.push(
+			current
     );
 
-    bounds.extend(position);
+		google.maps.event.addListener(current, 'click', function () {
+			// adding content from the marker
+			infoWindow.close();
+			infoWindow.setContent(this.contentString);
+			infoWindow.open(map, this);
+		});
+
+    bounds.extend(current.position);
+
   });
 
-  map.fitBounds(bounds);
+  map.fitBounds(bounds); //recenter map around markers
+
 }
