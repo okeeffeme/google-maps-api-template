@@ -1,32 +1,14 @@
 [
   {
-		"title": "test A",
-    "lat": 53.817680,
-    "lng": -1.537657,
-		"content": "Hello world A"
+		"title": "Ekebergparken",
+    "lat": 59.898541,
+    "lng": 10.75966,
+		"content": "Ekebergparken"
   },
   {
-		"title": "test B",
-    "lat": 53.790123,
-    "lng": -1.53243,
-		"content": "Hello world B"
-  },
-  {
-		"title": "test C",
-    "lat": 53.756745,
-    "lng": -1.5309087,
-		"content": "Hello world C"
-  },
-  {
-		"title": "test D",
-    "lat": 53.6474675,
-    "lng": -1.49564554,
-		"content": "Hello world D"
-  },
-  {
-		"title": "test E",
-    "lat": 53.69123456,
-    "lng": -1.6545466,
-		"content": "Hello world E"
+		"title": "Johanne Dybwads plass",
+    "lat": 59.915089,
+    "lng": 10.733766,
+		"content": "Johanne Dybwads plass"
   }
 ]

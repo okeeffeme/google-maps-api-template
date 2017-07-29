@@ -13,6 +13,11 @@ html, body {
 	background-color: white;
 	overflow-x: hidden;
 	transition: .5s;
+	padding-top: 20%;
+}
+
+#navigation {
+	transition: 1.2s;
 }
 
 .menu {
@@ -21,8 +26,8 @@ html, body {
 	top: 35px;
 	left: 35px;
 	background-color: white;
-	width: 90px;
-	height: 90px;
+	width: 80px;
+	height: 80px;
 	border-radius: 100%;
 	border: 0px;
 }
