@@ -64,7 +64,6 @@ function plotMarkers(m)
 
 		google.maps.event.addListener(current, 'click', function () {
 			// adding content from the marker
-			infoWindow.close();
 			infoWindow.setContent(this.contentString);
 			infoWindow.open(map, this);
 		});
