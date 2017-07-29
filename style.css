@@ -5,16 +5,33 @@ html, body {
 	background-color: green;
 }
 
-#nav {
+#sidenav {
 	height: 100%;
-	width: 20%;
-	position: absolute;
+	width: 0;
+	position: fixed;
+	z-index: 100;
 	background-color: white;
+	overflow-x: hidden;
+	transition: .5s;
+}
+#sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.trigger {
+	position: absolute;
+	z-index: 99;
+	top: 30px;
+	left: 30px;
 }
 
 #map {
   height: 100%;
-	width: 80%;
+	width: 100%;
+	z-index: 0;
 	position: absolute;
 	right: 0px;
 }
