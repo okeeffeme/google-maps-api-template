@@ -1,14 +1,72 @@
 [
   {
+		"id": 0,
 		"title": "Ekebergparken",
     "lat": 59.898541,
     "lng": 10.75966,
 		"content": "Ekebergparken"
   },
-  {
+	{
+		"id": 1,
 		"title": "Johanne Dybwads plass",
     "lat": 59.915089,
     "lng": 10.733766,
 		"content": "Johanne Dybwads plass"
-  }
+  },
+	{
+		"id": 2,
+		"title": "Grete Waitz Bislett",
+		"lat": 59.925949,
+		"lng": 10.734238,
+		"content": "Honoring long distance runner Grete Waitz of Oslo, Norway. The statue was originally placed the Grete Waitz plass before being moved to the north Bislett Stadium entrance.",
+		"sculptor": "Nils Aas"
+	},
+	{
+		"id": 3,
+		"title": "Sitting Girl with Headphones",
+		"lat": 59.908831,
+		"lng": 10.742174,
+		"content": "Pike med hodetelefon - 2014",
+		"sculptor": "Marit Krogh"
+	},
+	{
+		"id": 4,
+		"title": "Dronning Maud Statue",
+		"lat": 59.916212,
+		"lng": 10.727334,
+		"content": "The statue of Queen Maud stands at the entrance of the Queen Park, and was made by Ada Madsen (1917-2009). It was unveiled by King Olav V in 1959.",
+		"sculptor": "Ada Madsen"
+	},
+	{
+		"id": 5,
+		"title": "Kronprinsesse Märtha Statue",
+		"lat": 59.917894,
+		"lng": 10.729554,
+		"content": "The statue of Crown Princess Märtha stands at Gardevaktstuen on the north side of the castle and was made by Kirsten Kokkin (1951-). It was a gift from the Storting on the occasion of King Harald's 70th anniversary and was unveiled by him on 21 February 2007. A similar statue is on the lawn in front of the ambassador's residence in Washington DC - a tribute to the Crown Princess's efforts for Norway in the United States under 2. World War.",
+		"sculptor": "Kirsten Kokkin"
+	},
+	{
+		"id": 6,
+		"title": "Fabrikkjentene på Beierbrua",
+		"lat": 59.930966,
+		"lng": 10.757487,
+		"content": "",
+		"sculptor": "Ellen Jacobsen"
+	},
+	{
+		"id": 7,
+		"title": "Camilla Collett / I storm",
+		"lat": 59.917995,
+		"lng": 10.727793,
+		"content": "The monument is called \"I storm\". An aging Camilla Collett stands alone in the cold wind, and shruggs the shawl closer to her shoulders. The monument is cast in bronze and was unveiled in 1911.",
+		"sculptor": "Gustav Vigeland"
+	},
+	{
+		"id": 8,
+		"title": "Sphinx",
+		"lat": 59.913901,
+		"lng": 10.750501,
+		"content": "Artist Quote",
+		"sculptor": "Marc Quinn"
+	}
 ]

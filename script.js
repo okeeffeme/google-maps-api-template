@@ -49,13 +49,16 @@ function plotMarkers(m)
 
   m.forEach(function (marker) {
 		//creates marker properties
+		var windowText =
+			marker.sculptor != null ?
+			marker.title + " by " marker.sculptor : marker.title;
 
 		var current =  new google.maps.Marker({
 			map: map,
 			position: new google.maps.LatLng(marker.lat, marker.lng),
 			icon: 'marker-01.png',
 			title: marker.title,
-			contentString: marker.content,
+			contentString: windowText,
 		});
 
 		//pushes marker to array
