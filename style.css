@@ -3,7 +3,21 @@ html, body {
   margin: 0;
   padding: 0;
 	background-color: green;
-	font-family: "Arial", sans-serif;
+	font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+a,
+a:visited {
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+a:hover,
+a:active {
+	color: #5d5c5c;
 }
 
 #sidenav {

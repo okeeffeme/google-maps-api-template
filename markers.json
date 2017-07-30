@@ -8,10 +8,11 @@
   },
 	{
 		"id": 1,
-		"title": "Johanne Dybwads plass",
+		"title": "Johanne Dybwad",
     "lat": 59.915089,
     "lng": 10.733766,
-		"content": "Johanne Dybwads plass"
+		"content": "",
+		"sculptor": "Per Ung"
   },
 	{
 		"id": 2,
@@ -55,7 +56,7 @@
 	},
 	{
 		"id": 7,
-		"title": "Camilla Collett / I storm",
+		"title": "I storm",
 		"lat": 59.917995,
 		"lng": 10.727793,
 		"content": "The monument is called \"I storm\". An aging Camilla Collett stands alone in the cold wind, and shruggs the shawl closer to her shoulders. The monument is cast in bronze and was unveiled in 1911.",
@@ -68,5 +69,29 @@
 		"lng": 10.750501,
 		"content": "Artist Quote",
 		"sculptor": "Marc Quinn"
+	},
+	{
+		"id": 9,
+		"title": "Fortuna",
+		"lat": 59.915631,
+		"lng": 10.693161,
+		"content": "",
+		"sculptor": "Odd Hilt"
+	},
+	{
+		"id": 10,
+		"title": "Fru Fortuna",
+		"lat": 59.911925,
+		"lng": 10.749655,
+		"content": "",
+		"sculptor": "Per Ung"
+	},
+	{
+		"id": 11,
+		"title": "Wenche Foss",
+		"lat": 59.914952,
+		"lng": 10.733806,
+		"content": "",
+		"sculptor": "Per Ung"
 	}
 ]

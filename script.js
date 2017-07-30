@@ -77,10 +77,10 @@ function plotMarkers(m)
   });
 
   //map.fitBounds(bounds); //recenter map around markers
-	var listener = google.maps.event.addListener(map, "idle", function() {
-	  if (map.getZoom() < 15) map.setZoom(15);
-	  google.maps.event.removeListener(listener);
-	});
+	// var listener = google.maps.event.addListener(map, "idle", function() {
+	//   if (map.getZoom() < 15) map.setZoom(15);
+	//   google.maps.event.removeListener(listener);
+	// });
 
 
 }
