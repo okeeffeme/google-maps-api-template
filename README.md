@@ -14,5 +14,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Again, thanks to [Jamie Shields](https://github.com/jayshields)
-* A large portion of the text in this project's current form comes from [Det Norsk Konghus](http://www.kongehuset.no/artikkel.html?tid=31165)
-* etc
+* Some of the text in this project's current form comes from [Det Norsk Konghus](http://www.kongehuset.no/artikkel.html?tid=31165)
