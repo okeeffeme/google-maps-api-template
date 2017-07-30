@@ -93,5 +93,44 @@
 		"lng": 10.733806,
 		"content": "",
 		"sculptor": "Per Ung"
+	},
+	{
+		"id": 12,
+		"title": "Aasta Hansteen",
+		"lat": 59.910151,
+		"lng": 10.728281,
+		"content": "",
+		"sculptor": "Nina Sundbye"
+	},
+	{
+		"id": 13,
+		"title": "Pieta",
+		"lat": 59.916450,
+		"lng": 10.738254,
+		"content": "",
+		"sculptor": "Georg Kolbe"
+	},
+	{
+		"id": 14,
+		"title": "Rådhusplassen",
+		"lat": 59.911197,
+		"lng": 10.732981,
+		"content": ""
+	},
+	{
+		"id": 15,
+		"title": "Kvinnen på Bryggen",
+		"lat": 59.909598,
+		"lng": 10.725291,
+		"content": "",
+		"sculptor": "Skule Waksvik"
+	},
+	{
+		"id": 16,
+		"title": "Aud Schønemann",
+		"lat": 59.914467,
+		"lng": 10.739634,
+		"content": "",
+		"sculptor": "Nina Sundbye"
 	}
 ]
