@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     var js_file = document.createElement('script');
     js_file.type = 'text/javascript';
-    js_file.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBgl4T1XT-KkZTbTOeSeBvV1HrdCZg-99A&callback=initMap&language=' + lang;
+    js_file.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCEY8Pl39BVsEg5LJvg_G4f3P1lbtplCnk&callback=initMap&language=' + lang;
 		document.getElementsByTagName('head')[0].appendChild(js_file);
   }
 });
@@ -51,14 +51,14 @@ function plotMarkers(m)
 		//creates marker properties
 		var windowText =
 			marker.sculptor != null ?
-			marker.title + " by " marker.sculptor : marker.title;
+			marker.title + " by " + marker.sculptor : marker.title;
 
 		var current =  new google.maps.Marker({
 			map: map,
 			position: new google.maps.LatLng(marker.lat, marker.lng),
 			icon: 'marker-01.png',
 			title: marker.title,
-			contentString: windowText,
+			contentString: windowText
 		});
 
 		//pushes marker to array
