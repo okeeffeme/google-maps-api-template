@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+	background-color: #eee;
+	font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+a,
+a:visited {
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+a:hover,
+a:active {
+	color: #5d5c5c;
+}
+
+ul#navigation {
+	font-size: 1.6rem;
+}
+
+#sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 100;
+	background-color: white;
+	overflow-x: hidden;
+	transition: .5s;
+	padding-top: 20%;
+}
+
+#navigation {
+	transition: 1.2s;
+}
+
+.menu {
+	position: absolute;
+	z-index: 999;
+	top: 30px;
+	left: 30px;
+	background-color: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	border: 0px;
+}
+button.menu:focus,
+button.menu:active
+ {
+	outline: none !important;
+	border: none !important;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+
+}
+
+#map {
+  height: 100%;
+	width: 100%;
+	z-index: 0;
+	position: absolute;
+	right: 0px;
+}
