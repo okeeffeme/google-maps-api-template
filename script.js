@@ -48,11 +48,20 @@ function plotMarkers(m)
 
 
   m.forEach(function (marker) {
-		//creates marker properties
-		var windowText =
+		//
+		var hold =
 			marker.sculptor != null ?
 			marker.title + " by " + marker.sculptor : marker.title;
 
+		var windowText =
+			"<div id='content'>" +
+			"<div id='siteNotice'>" +
+			"</div>" +
+			"<h1 id='firstHeading' class='firstHeading'>"+marker.title+"</h1>" +
+			"<h2 id='subHeading' class='subHeading'>"+marker.sculptor+"</h2>" +
+			"</div>";
+
+		//creates marker properties
 		var current =  new google.maps.Marker({
 			map: map,
 			position: new google.maps.LatLng(marker.lat, marker.lng),

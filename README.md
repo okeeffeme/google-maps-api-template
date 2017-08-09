@@ -1,4 +1,4 @@
-# Immortal Women
+# Stone Women
 
 A short weekend project to document Oslo's tributes to women both historical and fictional.
 Big thanks to [Jamie Shields](https://github.com/jayshields) for writing a handy guide over at [Sitepoint](https://www.sitepoint.com/google-maps-javascript-api-the-right-way/). The starting point of this project comes from a fork of his repo Google Maps API template.

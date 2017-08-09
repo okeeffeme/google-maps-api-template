@@ -4,7 +4,8 @@
 		"title": "Ekebergparken",
     "lat": 59.898541,
     "lng": 10.75966,
-		"content": "Ekebergparken"
+		"content": "Ekebergparken",
+		"sculptor": "Multiple Artists"
   },
 	{
 		"id": 1,
@@ -115,7 +116,8 @@
 		"title": "Rådhusplassen",
 		"lat": 59.911197,
 		"lng": 10.732981,
-		"content": ""
+		"content": "",
+		"sculptor": "Multiple Artists"
 	},
 	{
 		"id": 15,
